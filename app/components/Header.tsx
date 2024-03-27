@@ -1,9 +1,9 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { FC, useState } from "react";
 
-export default function Header() {
+export const Header: FC = () => {
   const router = useRouter();
   const [location, setLocation] = useState("");
   return (
@@ -35,4 +35,4 @@ export default function Header() {
       </div>
     </div>
   );
-}
+};

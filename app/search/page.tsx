@@ -1,9 +1,10 @@
-import NavBar from "../components/NavBar";
-import Header from "./components/SearchHeader";
+import { FC } from "react";
+import { NavBar } from "../components/NavBar";
+import { Header } from "./components/SearchHeader";
 import SearchRestaurantCard from "./components/SearchRestaurantCard";
-import SearchSideBar from "./components/SearchSideBar";
+import { SearchSideBar } from "./components/SearchSideBar";
 
-export default function Search() {
+export const Search: FC = () => {
   return (
     <main className="bg-gray-100 min-h-screen w-screen">
       <main className="max-w-screen-2xl m-auto bg-white">
@@ -18,4 +19,4 @@ export default function Search() {
       </main>
     </main>
   );
-}
+};

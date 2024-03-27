@@ -1,4 +1,6 @@
-export default function SearchSideBar() {
+import { FC } from "react";
+
+export const SearchSideBar: FC = () => {
   return (
     <div className="w-1/5">
       <div className="border-b pb-4">
@@ -32,4 +34,4 @@ export default function SearchSideBar() {
       </div>
     </div>
   );
-}
+};

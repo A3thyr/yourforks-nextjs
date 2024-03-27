@@ -1,7 +1,8 @@
 import Link from "next/link";
-import NavBar from "../../../components/NavBar";
+import { NavBar } from "../../../components/NavBar";
+import { FC } from "react";
 
-export default function RestaurantMenu() {
+export const RestaurantMenu: FC = () => {
   return (
     <main className="bg-gray-100 min-h-screen w-screen">
       <main className="max-w-screen-2xl m-auto bg-white">
@@ -53,4 +54,4 @@ export default function RestaurantMenu() {
       </main>
     </main>
   );
-}
+};
