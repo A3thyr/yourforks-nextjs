@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const Reviews: FC = () => {
+const Reviews: FC = () => {
   return (
     <div>
       <h1 className="font-bold text-3xl mt-10 mb-7 borber-b pb-5">
@@ -35,3 +35,5 @@ export const Reviews: FC = () => {
     </div>
   );
 };
+
+export default Reviews;

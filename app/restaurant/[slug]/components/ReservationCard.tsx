@@ -1,6 +1,8 @@
+"use client";
+
 import { FC } from "react";
 
-export const ReservationCard: FC = () => {
+const ReservationCard: FC = () => {
   return (
     <div className="fixed w-[15%] bg-white rounded p-3 shadow">
       <div className="text-center border-b pb-2 font-bold">
@@ -34,3 +36,5 @@ export const ReservationCard: FC = () => {
     </div>
   );
 };
+
+export default ReservationCard;

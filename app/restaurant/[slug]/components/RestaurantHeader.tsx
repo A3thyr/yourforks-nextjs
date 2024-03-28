@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const RestaurantHeader: FC = () => {
+const RestaurantHeader: FC = () => {
   return (
     <div className="h-96 overflow-hidden">
       <div className="bg-center bg-gradient-to-r from-[#0f1f47] to-[#5f6984] h-full flex justify-center items-center">
@@ -11,3 +11,5 @@ export const RestaurantHeader: FC = () => {
     </div>
   );
 };
+
+export default RestaurantHeader;

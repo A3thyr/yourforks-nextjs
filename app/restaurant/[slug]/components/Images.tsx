@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const Images: FC = () => {
+const Images: FC = () => {
   return (
     <div>
       <h1 className="font-bold text-3xl mt-10 mb-7 border-b pb-5">5 photos</h1>
@@ -34,3 +34,5 @@ export const Images: FC = () => {
     </div>
   );
 };
+
+export default Images;

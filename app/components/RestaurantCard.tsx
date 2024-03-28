@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FC } from "react";
 
-export const RestaurantCard: FC = () => {
+const RestaurantCard: FC = () => {
   return (
     <div className="w-64 h-72 m-3 rounded overflow-hidden border cursor-pointer">
       <Link href="/restaurant/milestones-grill">
@@ -27,3 +27,5 @@ export const RestaurantCard: FC = () => {
     </div>
   );
 };
+
+export default RestaurantCard;

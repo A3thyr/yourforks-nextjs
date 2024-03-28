@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const SearchSideBar: FC = () => {
+const SearchSideBar: FC = () => {
   return (
     <div className="w-1/5">
       <div className="border-b pb-4">
@@ -35,3 +35,5 @@ export const SearchSideBar: FC = () => {
     </div>
   );
 };
+
+export default SearchSideBar;

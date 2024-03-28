@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FC } from "react";
 
-export const RestNavBar: FC = () => {
+const RestNavBar: FC = () => {
   return (
     <nav className="flex text-reg border-b pb-2">
       <Link href="/restaurant/milestones-grill" className="mr-7">
@@ -13,3 +13,5 @@ export const RestNavBar: FC = () => {
     </nav>
   );
 };
+
+export default RestNavBar;

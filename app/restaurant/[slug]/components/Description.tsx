@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const Description: FC = () => {
+const Description: FC = () => {
   return (
     <div className="mt-4">
       <p className="text-lg font-light">
@@ -13,3 +13,5 @@ export const Description: FC = () => {
     </div>
   );
 };
+
+export default Description;

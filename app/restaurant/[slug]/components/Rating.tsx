@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const Rating: FC = () => {
+const Rating: FC = () => {
   return (
     <div className="flex items-end">
       <div className="ratings mt-2 flex items-center">
@@ -13,3 +13,5 @@ export const Rating: FC = () => {
     </div>
   );
 };
+
+export default Rating;
