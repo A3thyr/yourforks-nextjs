@@ -23,6 +23,7 @@
     "autoprefixer": "^10.4.13",
     "axios": "^1.6.8",
     "bcrypt": "^5.1.1",
+    "cookies-next": "^4.1.1",
     "jose": "^5.2.3",
     "jsonwebtoken": "^9.0.2",
     "next": "13.1.1",
