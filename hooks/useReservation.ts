@@ -34,7 +34,7 @@ export default function useReservation() {
 
     try {
       const response = await axios.post(
-        `https://yourforks-nextjs-gwno24up6-a3thyrs-projects.vercel.app/api/restaurant/${slug}/reserve`,
+        `https://yourforks-nextjs.vercel.app/api/restaurant/${slug}/reserve`,
         {
           bookerFirstName,
           bookerLastName,

@@ -25,7 +25,7 @@ const useAuth = () => {
     });
     try {
       const response = await axios.post(
-        "https://yourforks-nextjs-gwno24up6-a3thyrs-projects.vercel.app/api/auth/signin",
+        "https://yourforks-nextjs.vercel.app/api/auth/signin",
         {
           email,
           password,
@@ -71,7 +71,7 @@ const useAuth = () => {
     });
     try {
       const response = await axios.post(
-        "https://yourforks-nextjs-gwno24up6-a3thyrs-projects.vercel.app/api/auth/signup",
+        "https://yourforks-nextjs.vercel.app/api/auth/signup",
         {
           firstName,
           lastName,
