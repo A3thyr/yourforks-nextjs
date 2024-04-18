@@ -60,7 +60,7 @@ export default function AuthContext({
       }
 
       const response = await axios.get(
-        "http://yourforks-nextjs-gwno24up6-a3thyrs-projects.vercel.app/api/auth/me",
+        "https://yourforks-nextjs-gwno24up6-a3thyrs-projects.vercel.app/api/auth/me",
         {
           headers: {
             Authorization: `Bearer ${jwt}`,
