@@ -59,11 +59,14 @@ export default function AuthContext({
         });
       }
 
-      const response = await axios.get("http://localhost:3000/api/auth/me", {
-        headers: {
-          Authorization: `Bearer ${jwt}`,
-        },
-      });
+      const response = await axios.get(
+        "http://yourforks-nextjs-gwno24up6-a3thyrs-projects.vercel.app/api/auth/me",
+        {
+          headers: {
+            Authorization: `Bearer ${jwt}`,
+          },
+        }
+      );
 
       axios.defaults.headers.common["Authorization"] = `Bearer ${jwt}`;
 

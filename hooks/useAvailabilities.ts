@@ -23,7 +23,7 @@ export default function useAvailabilities() {
 
     try {
       const response = await axios.get(
-        `http://localhost:3000/api/restaurant/${slug}/availability`,
+        `http://yourforks-nextjs-gwno24up6-a3thyrs-projects.vercel.app/api/restaurant/${slug}/availability`,
         {
           params: {
             day,
